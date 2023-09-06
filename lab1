@@ -15,11 +15,19 @@ int main(){
 
 
 
+int main(){
+    float a, b, c, p, s;
+    cin >> a >> b;
+    p = a + b + sqrt(pow(a, 2) + pow(b, 2));
+    s = a * b / 2;
+    cout << p << "\t" << s;
+    return 0;
+}
 
 
 
 
-/*
+
 int main(){
     float x, y, c;
     cin >> x >> y;
@@ -27,4 +35,4 @@ int main(){
     cout << "\t" << c;
     return 0;
 }
-*/
+
