@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main(){
+    float a, b, c, p;
+    cin >> a >> b >> c;
+    p = (a + b + c) / 2;
+    c = sqrt(p * (p - a) * (p - b) * (p - c));
+    cout << c;
+    return 0;
+}
+
+
+
+
+
+
+
+
+/*
+int main(){
+    float x, y, c;
+    cin >> x >> y;
+    c = 2 * x * y * sin(3 * x) + 3 * pow(x, 3) - 2 / (3 * pow(x, 4) + pow(y, 2) + 5);
+    cout << "\t" << c;
+    return 0;
+}
+*/
